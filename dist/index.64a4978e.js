@@ -596,7 +596,7 @@ document.body.appendChild(renderer.domElement);
 // Sets the color of the background
 // renderer.setClearColor(0xFEFEFE);
 const scene = new _three.Scene();
-const camera = new _three.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new _three.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 0.1, 2000);
 // Sets orbit control to move the camera around
 const orbit = new (0, _orbitControlsJs.OrbitControls)(camera, renderer.domElement);
 // Camera positioning

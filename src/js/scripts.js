@@ -25,10 +25,10 @@ document.body.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
-    45,
+    30,
     window.innerWidth / window.innerHeight,
     0.1,
-    1000
+    2000
 );
 
 // Sets orbit control to move the camera around
