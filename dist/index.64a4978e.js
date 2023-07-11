@@ -778,7 +778,7 @@ window.addEventListener("resize", function() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
-});
+}); // --no-thin
 
 },{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","../img/stars2.jpeg":"3xQoT","../img/sun.jpg":"47mIl","../img/mercury.jpg":"6b1vk","../img/venus.jpg":"bMK2X","../img/earth.jpg":"f9D2E","../img/mars.jpg":"kYkQF","../img/jupiter.jpg":"6HVCV","../img/saturn.jpg":"khmIb","../img/saturn ring.png":"kwdQE","../img/uranus.jpg":"aq0p1","../img/uranus ring.png":"l53fJ","../img/neptune.jpg":"e6Qjg","../img/pluto.jpg":"ixkz8","../img/moon.jpeg":"fYExp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ktPTu":[function(require,module,exports) {
 /**
